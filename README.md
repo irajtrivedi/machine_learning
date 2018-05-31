@@ -1,2 +1,2 @@
 # machine_learning
-All Machine Learning Modules
+This repo contains all machine learning algorithms developed
