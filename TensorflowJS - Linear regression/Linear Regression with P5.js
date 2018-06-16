@@ -10,9 +10,6 @@ function setup() {
   createCanvas(400, 400);
   m = tf.variable(tf.scalar(random(1)));
   b = tf.variable(tf.scalar(random(1)));
-
-  let rSlider = createSlider(0.0001, 0.5, 0.01);
-  rSlider.position(420, 20);
 }
 
 function loss(pred, labels) {
